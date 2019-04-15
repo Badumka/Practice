@@ -1,9 +1,8 @@
-# coding: utf8
 import re
 import matplotlib.pyplot as plt         # подключение библиотек
 
-file = open('info.txt', 'r')
-array = file.read()
+myfile = open('info.txt', 'r')          # открывает файл только для чтения
+array = myfile.read()                   # читает содержимое файла
 
 for i in array.split('\n'):             # разделяет файлы на строки
     x, y = (re.split('\s+', i))         # разделяет переменную i на две: х и у
