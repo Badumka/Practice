@@ -15,4 +15,3 @@ plt.xlabel('X', fontsize=10)            # подписи координатны�
 plt.xlabel('Y', fontsize=10)
 plt.grid(True)                          # сетка
 plt.show()                              # вывод на экран
-
