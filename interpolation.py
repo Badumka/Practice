@@ -16,4 +16,3 @@ plt.ylabel('Y', fontsize=10)
 plt.legend(('Interpolation F(x)', 'F(x)'))
 plt.grid(True)
 plt.show()
-
