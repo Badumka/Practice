@@ -29,7 +29,6 @@ def Fibonacci(n):
 print((" {0:.8s} || {1:.5s}  || {2:.8s} || {3:.5s}  || {4:.8s}").format("Итерация", "x_min", "f(x_min)", "x_max",
                                                                         "f(x_max)"))
 
-
 # Метод Фибоначчи
 def Fibonacci_Method(xmin, xmax, iteration=0):
     if (iteration == number_of_iterations): return

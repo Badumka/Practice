@@ -18,7 +18,6 @@ f = lambda x: (x ** xmin) * math.sin(xmax * x)
 # f = lambda x: (x ** 4) + math.atan(xmax * x)
 # f = lambda x: xmax * x + (math.e ** (abs(x - xmin)))
 
-
 # Метод поперечного сечения
 def Half_Division_Method(xmin, xmax):
     while (abs((xmin - xmax)) > 0.02):
@@ -31,7 +30,6 @@ def Half_Division_Method(xmin, xmax):
             print("{0:.4f} || {1:.4f} || Левый".format(middle_point, f(middle_point)))
             xmax = middle_point
     print("Интервал нахождения максимума / минимума функции: [{0:.4f} ; {1:.4f}]".format(xmin, xmax))
-
 
 Half_Division_Method(xmin, xmax)
 

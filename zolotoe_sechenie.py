@@ -47,7 +47,6 @@ def Golden_Section_Method(xmin, xmax, eps):
                                                                                        f(xmin), xmax,
                                                                                        f(xmax)), eps)
 
-
 Golden_Section_Method(xmin, xmax, 0.02)
 
 # Шаг между точками
